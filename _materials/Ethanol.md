@@ -8,5 +8,5 @@ categories: [material]
 rooms: [2, 156]
 ---
 
-The MSDS for ethanol can be found [here](/sheets/ethanol200.pdf).
+The MSDS for ethanol can be found [here]({{baseurl}}/sheets/ethanol200.pdf).
 

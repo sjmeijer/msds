@@ -8,5 +8,5 @@ categories: [material]
 rooms: [154]
 ---
 
-The MSDS for Liquid Nitrogen can be found [here](/sheets/liquid-nitrogen.pdf).
+The MSDS for Liquid Nitrogen can be found [here]({{baseurl}}/sheets/liquid-nitrogen.pdf).
 

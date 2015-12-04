@@ -8,5 +8,5 @@ categories: [material]
 rooms: [107, 163]
 ---
 
-The MSDS for acetone can be found [here](/sheets/acetone-sigma.pdf).
+The MSDS for acetone can be found [here]({{baseurl}}/sheets/acetone-sigma.pdf).
 
