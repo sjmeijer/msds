@@ -16,10 +16,10 @@ categories: [main]
 
 {% assign sortedpages = pages | split: '|' | sort %}
 
-{% for page in sortedpages %}
+{% for page in sortedpages offset:1 %}
     {% assign pageitems = page | split: '#' %}
 		<li>
-			<a href="{{ site.baseurl}}{{ pageitems[1] }}">{{ pageitems[0] }}</a>
+			<a href="{{ site.baseurl }}{{ pageitems[1] }}">{{ pageitems[0] }}</a>
 		</li>
 {% endfor %}
 </ul>

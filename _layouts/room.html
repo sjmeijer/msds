@@ -9,8 +9,8 @@ layout: default
 
   <article class="post-content">
 	  
-	   {% assign thisroom = {{page.roomnumber}} %}
-	  Looking at room {{thisroomn}}
+	   <!-- {% assign thisroom = {{page.roomnumber}} %}
+	  Looking at room {{thisroomn}} -->
 	  
 	  Room {{page.roomnumber}} contains the following chemicals:
 
@@ -25,9 +25,11 @@ layout: default
 	  {% assign sortedpages = pages | split: '|' | sort %}
 
 	  <ul>
-	  {% for page in sortedpages %}
+	  {% for page in sortedpages offset:1%}
 	      {% assign pageitems = page | split: '#' %}
-	  		<li><a href="{{ pageitems[1] }}">{{ pageitems[0] }}</a></li>
+			{% if pageitems[0] %}
+	  			<li><a href="{{ site.baseurl }}{{ pageitems[1] }}">{{ pageitems[0] }}</a></li>
+			{% endif %}
 	  {% endfor %}
 	  </ul>
 	  

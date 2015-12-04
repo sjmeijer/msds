@@ -2,10 +2,12 @@
 layout: room
 title: Room 156
 date:   2015-12-04 11:33:27
-categories: room
+categories: [room]
 permalink: /156/
 roomnumber: 156
 ---
+
+This room is the electronics lab near Mark's office.
 
 <!--
 Room 156 contains the following chemicals:

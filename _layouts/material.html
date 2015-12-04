@@ -10,11 +10,11 @@ layout: default
   <article class="post-content">
     {{ content }}
 	The following rooms contain this material:
+	{% for room in page.rooms offset:1%}
 	<ul>
-	{% for room in page.rooms %}
-		<li> <a href="{{ room }}">{{ room }}</a></li>
-	{% endfor %}
+		<li> <a href="{{ site.baseurl }}/{{ room }}">{{ room }}</a></li>	
 	</ul>
+	{% endfor %}
 
   </article>
 
