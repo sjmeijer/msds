@@ -4,7 +4,7 @@ email: services@unc.edu
 description: > # this means to ignore newlines until "baseurl:"
   This is a repository to hold all of our MSDS sheets, organized by labs.
   Any problems or updates should be reported.
-baseurl: "/msds" # the subpath of your site, e.g. /blog/
+baseurl: "/msds/" # the subpath of your site, e.g. /blog/
 url: "http://sjmeijer.github.io" # the base hostname & protocol for your site
 github_username:  sjmeijer
 
