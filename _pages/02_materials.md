@@ -19,7 +19,7 @@ categories: [main]
 {% for page in sortedpages %}
     {% assign pageitems = page | split: '#' %}
 		<li>
-			<a href="{{ pageitems[1] }}">{{ pageitems[0] }}</a>
+			<a href="{{ site.baseurl}}{{ pageitems[1] }}">{{ pageitems[0] }}</a>
 		</li>
 {% endfor %}
 </ul>
