@@ -8,9 +8,13 @@ baseurl: "/msds" # the subpath of your site, e.g. /blog/
 url: "http://sjmeijer.github.io" # the base hostname & protocol for your site
 github_username:  sjmeijer
 
+categories: [main, material, room]
+rooms: [154, 156]
+
 # Build settings
 sass:
   sass_dir: _sass
+  
 include: ['_pages','_materials','_rooms','sheets']
 kramdown:
   input: GFM
