@@ -8,5 +8,5 @@ categories: [material]
 rooms: [156]
 ---
 
-The MSDS for Ajax powder can be found [here]({{baseurl}}/sheets/AJAX-CLEANSING-POWDER-REGULAR.pdf).
+The MSDS for Ajax powder can be found [here]({{ site.baseurl }}/sheets/AJAX-CLEANSING-POWDER-REGULAR.pdf).
 
