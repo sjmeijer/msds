@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+	  
+	   {% assign thisroom = {{page.roomnumber}} %}
+	  Looking at room {{thisroomn}}
+	  
+	  Room {{page.roomnumber}} contains the following chemicals:
+
+	  {% capture pages %}
+	    {% for aPage in site.pages %}
+	  	{% if aPage.rooms contains {{page.roomnumber}} %}
+	  		|{{ aPage.title }}#{{ aPage.url }}
+	  	{% endif %}
+	    {% endfor %}
+	  {% endcapture %}
+
+	  {% assign sortedpages = pages | split: '|' | sort %}
+
+	  <ul>
+	  {% for page in sortedpages %}
+	      {% assign pageitems = page | split: '#' %}
+	  		<li><a href="{{ pageitems[1] }}">{{ pageitems[0] }}</a></li>
+	  {% endfor %}
+	  </ul>
+	  
+	  
+	  
+    {{ content }}
+
+	
+  </article>
+
+</div>
