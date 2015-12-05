@@ -1,5 +1,5 @@
 # Site settings
-title: UNC ENPA MSDS Repo
+title: UNC ENPA Safety Data Sheet Repository
 email: services@unc.edu
 description: > # this means to ignore newlines until "baseurl:"
   This is a repository to hold all of our MSDS sheets, organized by labs.
@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site
 github_username:  sjmeijer
 
 categories: [main, material, room]
-rooms: [2, 154, 156]
+rooms: [2, 107, 143, 144, 154, 156, 163]
 
 # Build settings
 sass:
