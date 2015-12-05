@@ -10,6 +10,8 @@
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
+		
+		<p>Last updated: {{ site.time | date_to_string }}</p>
       </div>
 
       <div class="footer-col  footer-col-2">
@@ -47,14 +49,11 @@
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
+		
+		  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> if you're really into <a href="https://www.reddit.com/r/osha/top/">safety</a>.</p>
       </div>
 
-      <div class="footer-col footer-col-4">
-      	<p>Last updated: {{ site.time | date_to_string }}</p>
-      </div>
-
-    </div>
-
+</div>
   </div>
 
 </footer>

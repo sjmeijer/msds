@@ -4,6 +4,7 @@ title: Materials
 permalink: /materials/
 categories: [main]
 ---
+A list of all materials (present in any of our labs).
 
 <ul>
 {% capture pages %}

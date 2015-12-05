@@ -5,6 +5,7 @@ permalink: /rooms/
 categories: [main]
 ---
 
+Laboratory spaces we are responsible for:
 <ul>
 {% capture pages %}
   {% for page in site.pages %}
