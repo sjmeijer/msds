@@ -2,7 +2,7 @@
 layout: material
 title: Bleach
 permalink: /bleach/
-tags: bleach sodium hypochlorite solution salt base sanitizer bleaching agent corrosive
+tags: sodium hypochlorite salt base sanitizer bleaching agent corrosive
 date: 2015-12-04 19:46:00
 categories: [material]
 rooms: [2]
