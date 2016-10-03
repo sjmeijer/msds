@@ -27,10 +27,10 @@ Laboratory spaces we are responsible for:
 
 Maps of Phillips Hall are here:
 <ul>
-	<li><a href="{{site.baseurl}}/files/039-phillips_hall-gr.pdf">Ground Floor></li>
-	<li><a href="{{site.baseurl}}/files/039-phillips_hall-01.pdf">First Floor></li>
-	<li><a href="{{site.baseurl}}/files/039-phillips_hall-02.pdf">Second Floor></li>
-	<li><a href="{{site.baseurl}}/files/039-phillips_hall-03.pdf">Third Floor></li>
+	<li><a href="{{site.baseurl}}/files/039-phillips_hall-gr.pdf">Ground Floor</a></li>
+	<li><a href="{{site.baseurl}}/files/039-phillips_hall-01.pdf">First Floor</a></li>
+	<li><a href="{{site.baseurl}}/files/039-phillips_hall-02.pdf">Second Floor</a></li>
+	<li><a href="{{site.baseurl}}/files/039-phillips_hall-03.pdf">Third Floor</a></li>
 
 </ul>
 
