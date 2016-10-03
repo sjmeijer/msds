@@ -11,4 +11,4 @@ The lab safety plan can be accessed [here](https://itsapps.unc.edu/LabSafetyPlan
 
 The Experimantal Nuclear and Particle Astrophysics group is led by [John Wilkerson](http://user.physics.unc.edu/~jfw/)
 
-An additional resource useful for finding other safety data sheets is [Canada's OSHA] (http://ccinfoweb.ccohs.ca/msds/search.html)
+An additional resource useful for finding other safety data sheets is [Canada's OSHA](http://ccinfoweb.ccohs.ca/msds/search.html)
